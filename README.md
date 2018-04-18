@@ -1,9 +1,12 @@
+# Sartori Adrien
+
 # ceri-m2-test
+
+# Badges
 
 [![CircleCI](https://circleci.com/gh/AdrienSa/ceri-m1-test-2017.svg?style=svg)](https://circleci.com/gh/AdrienSa/ceri-m1-test-2017)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d3344f320b5a419cb8e2cdc3a3279c8d)](https://www.codacy.com/app/AdrienSa/ceri-m1-test-2017?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AdrienSa/ceri-m1-test-2017&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/AdrienSa/ceri-m1-test-2017/branch/master/graph/badge.svg)](https://codecov.io/gh/AdrienSa/ceri-m1-test-2017)
-
 
 
 ## Resources
