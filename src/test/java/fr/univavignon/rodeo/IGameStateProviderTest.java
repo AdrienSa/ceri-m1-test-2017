@@ -42,7 +42,7 @@ public class IGameStateProviderTest
 	public void testGet()
 	{
 		final IGameStateProvider gameS = getTestInstance();
-		gameS.get("Bull");
+		assertEquals(gameS.get("Bull"),gs);
 	}
 	
 	@Test(expected=IllegalArgumentException.class)
