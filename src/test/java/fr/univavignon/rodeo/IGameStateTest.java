@@ -25,7 +25,7 @@ public class IGameStateTest
 		Mockito.doThrow(IllegalArgumentException.class).when(gameMock).catchAnimal(null);
 		Mockito.doThrow(IllegalStateException.class).when(gameMock).catchAnimal(ani);
 		Mockito.doThrow(IllegalArgumentException.class).when(gameMock).getSpecieLevel(null);
-		Mockito.doThrow(IllegalArgumentException.class).when(gameMock).getSpecieLevel(spe);
+		Mockito.when(gameMock.getSpecieLevel(spe)).thenReturn(SpecieLevel.NOVICE);
 		Mockito.when(gameMock.getProgression()).thenReturn(10);
 		return gameMock;
 	}
@@ -58,12 +58,12 @@ public class IGameStateTest
 		gameS.getSpecieLevel(null);
 	}
 	
-	/*@Test
+	@Test
 	public void testGetSpecieLevel()
 	{
 		final IGameState gameS = getTestInstance();
-		gameS.getSpecieLevel(spe);
-	}*/
+		assertEquals(gameS.getSpecieLevel(spe),SpecieLevel.NOVICE);
+	}
 	
 	@Test
 	public void testGetProgression()
