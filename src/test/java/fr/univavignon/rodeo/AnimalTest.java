@@ -6,9 +6,9 @@ public class AnimalTest extends IAnimalTest
 {
 	
 	@Override
-	protected IAnimal getTestInstance()
+	protected Animal getTestInstance()
 	{
-		IAnimal a = new IAnimal();
+		Animal a = new Animal();
 		return a;
 	}
 }*/

@@ -42,6 +42,13 @@ public class IAnimalTest
 	}
 	
 	@Test
+	public void testIsNotSecret()
+	{
+		final IAnimal animal = getTestInstance();
+		assertEquals(animal.isSecret(),false);
+	}
+	
+	@Test
 	public void testIsEndangered()
 	{
 		final IAnimal animal = getTestInstance();
