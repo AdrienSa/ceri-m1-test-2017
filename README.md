@@ -14,7 +14,14 @@ Classique
 
 # Doc
 
-TODO
+Tous les tests sont dans : ceri-m1-test-2017/src/test/java/fr/univavignon/rodeo
+Toute l'implémentation est dans : ceri-m1-test-2017/src/main/java/fr/univavignon/rodeo/imp
+
+J'utilise un csv et récupère 1 animal "normal, le secret, celui en voie d'extinction et le boss s'ils existent par espèce.
+Je récupère également les zones des espèces et des environnements, et l'xp de chaque animal récupéré.
+Toutes les informations sont à des endroits spécifiques attention si vous modifiez le csv.
+
+Je n'ai pas tout le code de couvert mais tous mes tests sont ceux défini avant l'implémentation et sont passés.
 
 # Rendu
 21 mai 2018
