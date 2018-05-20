@@ -41,12 +41,12 @@ public class IAnimalTest
 		assertEquals(animal.isSecret(),true);
 	}
 	
-	@Test
+	/*@Test
 	public void testIsNotSecret()
 	{
 		final IAnimal animal = getTestInstance();
 		assertEquals(animal.isSecret(),false);
-	}
+	}*/
 	
 	@Test
 	public void testIsEndangered()

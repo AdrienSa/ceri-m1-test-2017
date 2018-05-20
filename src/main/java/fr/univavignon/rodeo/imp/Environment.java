@@ -7,17 +7,17 @@ import fr.univavignon.rodeo.api.*;
 public class Environment implements IEnvironment 
 {
 	/**
-	 * 
+	 * Name of the environment
 	 */
 	private String name;
 	
 	/**
-	 * 
+	 * Number of areas of the environment
 	 */
 	private int areas;
 	
 	/**
-	 * 
+	 * Specie list of the environment
 	 */
 	private List<ISpecie> species;
 	
@@ -28,22 +28,37 @@ public class Environment implements IEnvironment
 		this.species = species;
 	}
 	
+	public Environment(String name, int areas)
+	{
+		this.name = name;
+		this.areas = areas;
+		this.species = null;
+	}
+	
 	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
+	/**
+	 * Getter of name
+	 */
+	public String getName() 
+	{
 		return name;
 	}
 
 	@Override
-	public int getAreas() {
-		// TODO Auto-generated method stub
+	/**
+	 * Getter of areas
+	 */
+	public int getAreas() 
+	{
 		return areas;
 	}
 
 	@Override
-	public List<ISpecie> getSpecies() {
-		// TODO Auto-generated method stub
+	/**
+	 * Getter of the specie list
+	 */
+	public List<ISpecie> getSpecies() 
+	{
 		return species;
 	}
-
 }
