@@ -51,7 +51,7 @@ public class EnvironmentProvider implements IEnvironmentProvider
 					List<IAnimal> animals = new ArrayList<IAnimal>();
 				//	System.out.println(s[1].substring(0, s[1].length()-1));
 				//	System.out.println(s[1].substring(s[1].length()-1));
-					if(s[1].substring(0, s[1].length()-1) != "-") {
+					if(!s[1].substring(0, s[1].length()-1).equals("-")) {
 						//System.out.println(s[1]);
 						//System.out.println("CCCCCCCCCCCCCCCCCCCCCCCC");
 						IAnimal a1 = new Animal(s[1].substring(0, s[1].length()-1),Integer.parseInt(s[14]),false,false,false);

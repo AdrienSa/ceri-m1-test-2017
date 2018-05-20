@@ -193,7 +193,7 @@ public class GameState implements IGameState
 				break;
 			}
 		}
-		if(isPresent == false)
+		if(!isPresent)
 			throw new IllegalStateException("Animal pas present");
 		
 		animalCatch.put(animal, true);
@@ -298,7 +298,7 @@ public class GameState implements IGameState
 	private void calculateMaxAnimalArea(IEnvironment env)
 	{
 		int res = 0;
-		for(ISpecie spe : currentEnv.getSpecies())
+		for(ISpecie spe : env.getSpecies())
 			if(spe.getArea() == currentArea+1)
 				res += spe.getAnimals().size();
 		
