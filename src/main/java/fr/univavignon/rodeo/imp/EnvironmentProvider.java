@@ -101,11 +101,6 @@ public class EnvironmentProvider implements IEnvironmentProvider
 		}
 	}
 	
-	public EnvironmentProvider(List<IEnvironment> availableEnvironments)
-	{
-		this.availableEnvironments = availableEnvironments;
-	}
-	
 	/**
 	 * Getter of available environments
 	 */

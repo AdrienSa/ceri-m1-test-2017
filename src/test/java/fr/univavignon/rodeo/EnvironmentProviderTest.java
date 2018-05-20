@@ -54,4 +54,14 @@ public class EnvironmentProviderTest extends IEnvironmentProviderTest
 		final IEnvironmentProvider envP = getTestInstance();
 		assertEquals(envP.getEnvironment("MONTAIN"),env);
 	}
+	
+	@Test(expected=IllegalArgumentException.class)
+	/**
+	 * Test getEnvironment (with IllegalArgumentException expected)
+	 */
+	public void testGetEnvironmentNull()
+	{
+		final IEnvironmentProvider envP = getTestInstance();
+		envP.getEnvironment(null)
+	}
 }
