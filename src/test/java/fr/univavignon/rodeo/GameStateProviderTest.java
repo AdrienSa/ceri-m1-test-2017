@@ -63,10 +63,11 @@ public class GameStateProviderTest extends IGameStateProviderTest
 		assertEquals(gs2.getName(),gs.getName());
 	}
 	
-	@Test(expected=IOException.class)
+	
 	/**
 	 * Test save (with null)
 	 */
+	@Test
 	public void testSaveNull()
 	{
 		final IGameStateProvider gameS = getTestInstance();
