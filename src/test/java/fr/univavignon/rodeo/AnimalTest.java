@@ -18,6 +18,7 @@ public class AnimalTest extends IAnimalTest
 	{
 		IEnvironmentProvider envP = new EnvironmentProvider();
 		IAnimal a = envP.getEnvironment("SAVANNAH").getSpecies().get(0).getAnimals().get(0);
+		System.out.println(a.getName());
 		//System.out.println(envP.getEnvironment("SAVANNAH").getSpecies().get(0).getAnimals().get(0).getName());
 		return a;
 	}

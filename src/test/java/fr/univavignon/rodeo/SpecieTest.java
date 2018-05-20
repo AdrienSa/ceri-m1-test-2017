@@ -30,6 +30,7 @@ public class SpecieTest extends ISpecieTest
 		ISpecie spe = envP.getEnvironment("SAVANNAH").getSpecies().get(0);
 		listA = envP.getEnvironment("SAVANNAH").getSpecies().get(0).getAnimals();
 		area = envP.getEnvironment("SAVANNAH").getSpecies().get(0).getArea();
+		System.out.println(spe.getName());
 		return spe;
 	}
 	

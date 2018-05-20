@@ -22,6 +22,7 @@ public class GameStateProvider implements IGameStateProvider
 		if(gameState == null)
 		{
 			System.out.println("Null erreur");
+			throw new IOException("Null erreur");
 			return;
 		}
 		String file = FILE_PATH+gameState.getName()+".txt";
