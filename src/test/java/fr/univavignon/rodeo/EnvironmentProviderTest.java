@@ -62,6 +62,6 @@ public class EnvironmentProviderTest extends IEnvironmentProviderTest
 	public void testGetEnvironmentNull()
 	{
 		final IEnvironmentProvider envP = getTestInstance();
-		envP.getEnvironment(null)
+		envP.getEnvironment(null);
 	}
 }
