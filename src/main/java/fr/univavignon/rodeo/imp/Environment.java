@@ -28,13 +28,6 @@ public class Environment implements IEnvironment
 		this.species = species;
 	}
 	
-	public Environment(String name, int areas)
-	{
-		this.name = name;
-		this.areas = areas;
-		this.species = null;
-	}
-	
 	@Override
 	/**
 	 * Getter of name
