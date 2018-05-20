@@ -14,7 +14,13 @@ Classique
 
 # Doc
 
-TODO
+All test are in ceri-m1-test-2017/src/test/java/fr/univavignon/rodeo
+All the implementation are in ceri-m1-test-2017/src/main/java/fr/univavignon/rodeo/imp
+
+I use a csv to insert data with 1 normal animal and secret, endangered, and boss.
+With the areas and xp at specific place.
+
+I don't cover all the code but I make the previous test with all passed.
 
 # Rendu
 21 mai 2018
